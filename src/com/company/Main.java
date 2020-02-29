@@ -16,10 +16,12 @@ public class Main {
         mPrism.add(new Cube(12, 55));
         mPrism.add(new RectangularPrism(8, 10, 12, 20));
         mPrism.add(new Sphere(10, 12));
+        mPrism.add(new Cube(7,90));
+
 
         for (Prism prism : mPrism) {
             prism.print();
-
+ 
 
             for (Prism prism1 : mPrism) {
                 prism1.printPrice();
